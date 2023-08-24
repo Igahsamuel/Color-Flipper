@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function Body({ colorMode }) {
   let colors = [
+    "white",
     "red",
     "green",
     "orange",
@@ -13,6 +14,7 @@ function Body({ colorMode }) {
     "chocolate",
   ];
   const colorCodes = [
+    "#FFFFFF",
     "#FF0000",
     "#008000",
     "#FFA500",
